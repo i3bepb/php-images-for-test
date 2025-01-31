@@ -8,3 +8,5 @@ ARG LOCAL_GROUP_ID_ARG=82
 RUN apk add --no-cache shadow \
     && groupmod -g ${LOCAL_GROUP_ID_ARG} www-data && usermod -u ${LOCAL_USER_ID_ARG} -g ${LOCAL_GROUP_ID_ARG} www-data \
     && chown -R ${LOCAL_USER_ID_ARG}:${LOCAL_GROUP_ID_ARG} /home/www-data
+
+USER www-data

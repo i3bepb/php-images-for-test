@@ -7,80 +7,81 @@ Dockerfiles for create images on php for run test. Images based on php:cli-alpin
 ## php 7.2.34
 1. Build from root directory
 ```shell
-docker build -f php7234/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-7.2.34-cli-alpine3.12 ./php7234
+docker build -f php7234/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-7.2.34-cli-alpine3.12 ./php7234
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-7.2.34-cli-alpine3.12 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-7.2.34-cli-alpine3.12 sh
 ```
+
 ## php 7.3.33
 1. Build from root directory
 ```shell
-docker build -f php7333/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-7.3.33-cli-alpine3.15 ./php7333
+docker build -f php7333/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-7.3.33-cli-alpine3.15 ./php7333
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-7.3.33-cli-alpine3.15 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-7.3.33-cli-alpine3.15 sh
 ```
 
 ## php 7.4.33
 1. Build from root directory
 ```shell
-docker build -f php7433/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-7.4.33-cli-alpine3.16 ./php7433
+docker build -f php7433/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-7.4.33-cli-alpine3.16 ./php7433
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-7.4.33-cli-alpine3.16 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-7.4.33-cli-alpine3.16 sh
 ```
 
 ## php 8.0.30
 1. Build from root directory
 ```shell
-docker build -f php8030/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-8.0.30-cli-alpine3.16 ./php8030
+docker build -f php8030/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.0.30-cli-alpine3.16 ./php8030
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-8.0.30-cli-alpine3.16 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.0.30-cli-alpine3.16 sh
 ```
 
 ## php 8.1.31
 1. Build from root directory
 ```shell
-docker build -f php8131/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-8.1.31-cli-alpine3.21 ./php8131
+docker build -f php8131/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.1.31-cli-alpine3.21 ./php8131
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-8.1.31-cli-alpine3.21 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.1.31-cli-alpine3.21 sh
 ```
 
 ## php 8.2.27
 1. Build from root directory
 ```shell
-docker build -f php8227/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-8.2.27-cli-alpine3.21 ./php8227
+docker build -f php8227/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.2.27-cli-alpine3.21 ./php8227
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-8.2.27-cli-alpine3.21 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.2.27-cli-alpine3.21 sh
 ```
 
 ## php 8.3.16
 1. Build from root directory
 ```shell
-docker build -f php8316/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-8.3.16-cli-alpine3.21 ./php8316
+docker build -f php8316/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.3.16-cli-alpine3.21 ./php8316
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-8.3.16-cli-alpine3.21 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.3.16-cli-alpine3.21 sh
 ```
 
 ## php 8.4.16
 1. Build from root directory
 ```shell
-docker build -f php8403/Dockerfile.base -t i3bepb/php-for-test:1.2.5-php-8.4.3-cli-alpine3.21 ./php8403
+docker build -f php8403/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.4.3-cli-alpine3.21 ./php8403
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.5-php-8.4.3-cli-alpine3.21 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.4.3-cli-alpine3.21 sh
 ```
 
 # How use on local

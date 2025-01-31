@@ -14,5 +14,3 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
     && mkdir -p /home/www-data/application
 
 WORKDIR /home/www-data/application
-
-USER www-data
