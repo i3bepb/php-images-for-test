@@ -87,7 +87,7 @@ docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.4.3-cli-alpine3.21 sh
 # How use on local
 The file **Dockerfile.dev** can be used to run tests. Build a local image to map local user to user inside the container. For example user (1000:1000). Run from root directory.
 ```shell
-docker build -f Dockerfile.dev -t php74-for-test:1.0.0 --build-arg MYAPP_IMAGE=i3bepb/php-for-test:1.2.5-php-7.4.33-cli-alpine3.16 --build-arg LOCAL_USER_ID_ARG=1000 --build-arg LOCAL_GROUP_ID_ARG=1000 .
+docker build -f Dockerfile.dev -t php74-for-test:1.0.0 --build-arg MYAPP_IMAGE=i3bepb/php-for-test:1.2.6-php-7.4.33-cli-alpine3.16 --build-arg LOCAL_USER_ID_ARG=1000 --build-arg LOCAL_GROUP_ID_ARG=1000 .
 ```
 Run container in interactive mode for tests
 ```shell
