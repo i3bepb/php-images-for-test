@@ -64,24 +64,24 @@ docker build -f php8228/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.2.28-
 docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.2.28-cli-alpine3.21 sh
 ```
 
-## php 8.3.19
+## php 8.3.20
 1. Build from root directory
 ```shell
-docker build -f php8319/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.3.19-cli-alpine3.21 ./php8319
+docker build -f php8320/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.3.20-cli-alpine3.21 ./php8320
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.3.19-cli-alpine3.21 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.3.20-cli-alpine3.21 sh
 ```
 
-## php 8.4.5
+## php 8.4.6
 1. Build from root directory
 ```shell
-docker build -f php8405/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.4.5-cli-alpine3.21 ./php8405
+docker build -f php8406/Dockerfile.base -t i3bepb/php-for-test:1.2.6-php-8.4.6-cli-alpine3.21 ./php8406
 ```
 2. So you can run, check
 ```shell
-docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.4.5-cli-alpine3.21 sh
+docker run --rm -it i3bepb/php-for-test:1.2.6-php-8.4.6-cli-alpine3.21 sh
 ```
 
 # How use on local
